@@ -3,18 +3,20 @@
 <head>
   <meta charset="utf-8">
   <title>Circle Colourer</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
   <link href="css/main.css" rel="stylesheet">
 </head>
+
 <body>
+  <form>
+    <label for="pick-color">Pick a color</label>
+    <input type="color" id="pick-color">
 
-  <button id="btn-right">Right</button>
-  <button id="btn-left">Left</button>
-  <button id="btn-top">Up</button>
-  <button id="btn-bottom">Down</button>
-  <div class="ball"></div>
+    <div class="ball">
+    </div>
+  </form>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
-<script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
